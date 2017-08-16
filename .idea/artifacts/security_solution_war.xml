@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="security-solution:war">
+    <output-path>$PROJECT_DIR$/security-solution/target</output-path>
+    <root id="archive" name="security-solution-4.3.b.RELEASE.war">
+      <element id="artifact" artifact-name="security-solution:war exploded" />
+    </root>
+  </artifact>
+</component>

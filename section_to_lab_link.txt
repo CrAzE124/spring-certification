@@ -1,0 +1,36 @@
+Developing an application from Plain Java Objects
+	spring-intro
+Using Spring to configure an application
+	javaconfig-dependency-injection
+Using Spring Annotations to configure and test an application
+	annotations
+Using XML to configure an application
+	xml-di
+Testing Spring Applications
+	test
+Developing aspects using Spring AOP
+	aop
+Reimplementing repositories using Spring’s Jdbc Template
+	jdbc
+Managing transactions declaratively using Spring Annotations
+	tx
+Reimplementing repositories using Spring and JPA
+	jpa-spring-data
+Adding a Web interface
+	mvc
+Simplification using Spring Boot
+	spring-boot-start
+Applying Spring Security to a Web application
+	security
+Restful applications with Spring MVC
+	rest-ws
+Building a simple Microservices system
+	ms-discovery-server
+	ms-accounts-server
+	ms-web-client
+Using Bean Definition inheritance, Property placeholders and Namespaces
+	xml-dependency-injection-best-practices
+Sending and receiving messages in a Spring Application
+	jms
+Monitoring and managing a Java Application
+	jmx

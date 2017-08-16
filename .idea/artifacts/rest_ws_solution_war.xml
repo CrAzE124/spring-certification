@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="rest-ws-solution:war">
+    <output-path>$PROJECT_DIR$/rest-ws-solution/target</output-path>
+    <root id="archive" name="rest-ws-solution-4.3.b.RELEASE.war">
+      <element id="artifact" artifact-name="rest-ws-solution:war exploded" />
+    </root>
+  </artifact>
+</component>

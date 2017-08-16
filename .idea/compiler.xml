@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="annotations" />
+        <module name="annotations-solution" />
+        <module name="aop" />
+        <module name="aop-solution" />
+        <module name="javaconfig-dependency-injection" />
+        <module name="javaconfig-dependency-injection-solution" />
+        <module name="jdbc" />
+        <module name="jdbc-solution" />
+        <module name="jms" />
+        <module name="jms-solution" />
+        <module name="jmx" />
+        <module name="jmx-solution" />
+        <module name="jpa-spring-data" />
+        <module name="jpa-spring-data-solution" />
+        <module name="ms-accounts-server" />
+        <module name="ms-accounts-server-solution" />
+        <module name="ms-discovery-server" />
+        <module name="ms-discovery-server-solution" />
+        <module name="ms-web-client" />
+        <module name="ms-web-client-solution" />
+        <module name="mvc" />
+        <module name="mvc-solution" />
+        <module name="rest-ws" />
+        <module name="rest-ws-solution" />
+        <module name="rewards-common" />
+        <module name="rewards-db" />
+        <module name="security" />
+        <module name="security-solution" />
+        <module name="spring-boot-solution" />
+        <module name="spring-boot-start" />
+        <module name="spring-intro" />
+        <module name="spring-intro-solution" />
+        <module name="test" />
+        <module name="test-solution" />
+        <module name="tx" />
+        <module name="tx-solution" />
+        <module name="xml-dependency-injection-best-practices" />
+        <module name="xml-dependency-injection-best-practices-solution" />
+        <module name="xml-di" />
+        <module name="xml-di-solution" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="annotations" target="1.8" />
+      <module name="annotations-solution" target="1.8" />
+      <module name="aop" target="1.8" />
+      <module name="aop-solution" target="1.8" />
+      <module name="javaconfig-dependency-injection" target="1.8" />
+      <module name="javaconfig-dependency-injection-solution" target="1.8" />
+      <module name="jdbc" target="1.8" />
+      <module name="jdbc-solution" target="1.8" />
+      <module name="jms" target="1.8" />
+      <module name="jms-solution" target="1.8" />
+      <module name="jmx" target="1.8" />
+      <module name="jmx-solution" target="1.8" />
+      <module name="jpa-spring-data" target="1.8" />
+      <module name="jpa-spring-data-solution" target="1.8" />
+      <module name="ms-accounts-server" target="1.8" />
+      <module name="ms-accounts-server-solution" target="1.8" />
+      <module name="ms-discovery-server" target="1.8" />
+      <module name="ms-discovery-server-solution" target="1.8" />
+      <module name="ms-web-client" target="1.8" />
+      <module name="ms-web-client-solution" target="1.8" />
+      <module name="mvc" target="1.8" />
+      <module name="mvc-solution" target="1.8" />
+      <module name="parentCoreSpringProject" target="1.8" />
+      <module name="rest-ws" target="1.8" />
+      <module name="rest-ws-solution" target="1.8" />
+      <module name="rewards-common" target="1.8" />
+      <module name="rewards-db" target="1.8" />
+      <module name="security" target="1.8" />
+      <module name="security-solution" target="1.8" />
+      <module name="spring-boot-solution" target="1.8" />
+      <module name="spring-boot-start" target="1.8" />
+      <module name="spring-intro" target="1.8" />
+      <module name="spring-intro-solution" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="test-solution" target="1.8" />
+      <module name="tx" target="1.8" />
+      <module name="tx-solution" target="1.8" />
+      <module name="xml-dependency-injection-best-practices" target="1.8" />
+      <module name="xml-dependency-injection-best-practices-solution" target="1.8" />
+      <module name="xml-di" target="1.8" />
+      <module name="xml-di-solution" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
