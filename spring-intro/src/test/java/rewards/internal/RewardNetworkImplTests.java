@@ -42,7 +42,6 @@ public class RewardNetworkImplTests {
 
 	// TODO-03: Remove the @Ignore annotation below. Run this JUnit test, It should pass.
 	@Test
-	@Ignore
 	public void testRewardForDining() {
 		// create a new dining of 100.00 charged to credit card '1234123412341234' by merchant '123457890' as test input
 		Dining dining = Dining.createDining("100.00", "1234123412341234", "1234567890");
