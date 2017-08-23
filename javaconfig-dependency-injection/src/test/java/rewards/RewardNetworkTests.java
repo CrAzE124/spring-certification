@@ -8,6 +8,9 @@ import org.springframework.context.ApplicationContext;
 
 import static org.junit.Assert.*;
 
+/**
+ * Tests the {@link RewardNetwork} implementation
+ */
 public class RewardNetworkTests {
     private RewardNetwork rewardNetwork;
 
@@ -16,6 +19,7 @@ public class RewardNetworkTests {
         //Setup the application context
         ApplicationContext applicationContext = SpringApplication.run(TestInfrastructureConfig.class);
 
+        //And get the bean (which we defined in the RewardsConfig configuration class) from the app context
         rewardNetwork = applicationContext.getBean(RewardNetwork.class);
     }
 

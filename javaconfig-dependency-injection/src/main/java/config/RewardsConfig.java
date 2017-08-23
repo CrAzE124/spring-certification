@@ -12,6 +12,10 @@ import rewards.internal.reward.JdbcRewardRepository;
 
 import javax.sql.DataSource;
 
+/**
+ * The rewards configuration class, responsible for creating and linking up
+ * various beans
+ */
 @Configuration
 public class RewardsConfig {
     private final DataSource dataSource;
@@ -21,6 +25,10 @@ public class RewardsConfig {
         this.dataSource = dataSource;
     }
 
+    /**
+     * Build the RewardNetwork bean
+     * @return the instantiated RewardNetwork bean
+     */
     @Bean
     public RewardNetwork rewardNetwork() {
         return new RewardNetworkImpl(
@@ -30,6 +38,10 @@ public class RewardsConfig {
         );
     }
 
+    /**
+     * Create the account repository
+     * @return The instantiated account repository bean
+     */
     @Bean
     public JdbcAccountRepository accountRepository() {
         JdbcAccountRepository accountRepository = new JdbcAccountRepository();
@@ -38,6 +50,10 @@ public class RewardsConfig {
         return accountRepository;
     }
 
+    /**
+     * Create the restaurant repository
+     * @return The instantiated restaurant repository
+     */
     @Bean
     public JdbcRestaurantRepository restaurantRepository() {
         JdbcRestaurantRepository restaurantRepository = new JdbcRestaurantRepository();
@@ -46,6 +62,10 @@ public class RewardsConfig {
         return restaurantRepository;
     }
 
+    /**
+     * Create the reward repository
+     * @return The instantiated reward repository
+     */
     @Bean
     public JdbcRewardRepository rewardRepository() {
         JdbcRewardRepository rewardRepository = new JdbcRewardRepository();

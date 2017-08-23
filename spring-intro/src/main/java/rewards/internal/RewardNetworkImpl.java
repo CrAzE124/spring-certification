@@ -40,6 +40,11 @@ public class RewardNetworkImpl implements RewardNetwork {
 		this.rewardRepository = rewardRepository;
 	}
 
+	/**
+	 * Allocate a reward to an account
+	 * @param dining a charge made to a credit card for dining at a restaurant
+	 * @return The confirmation of the contribution made
+	 */
 	public RewardConfirmation rewardAccountFor(Dining dining) {
         final Account account = accountRepository.findByCreditCard(dining.getCreditCardNumber());
         final Restaurant merchantNumber = restaurantRepository.findByMerchantNumber(dining.getMerchantNumber());
