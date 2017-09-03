@@ -17,8 +17,6 @@ import common.money.Percentage;
 /**
  * Loads accounts from a data source using the JDBC API.
  */
-//TODO-10: Remove this @Repository annotation and the @Autowired annotation below.
-@Repository
 public class JdbcAccountRepository implements AccountRepository {
 
 	private DataSource dataSource;
@@ -27,7 +25,6 @@ public class JdbcAccountRepository implements AccountRepository {
 	 * Sets the data source this repository will use to load accounts.
 	 * @param dataSource the data source
 	 */
-	@Autowired
 	public void setDataSource(DataSource dataSource) {
 		this.dataSource = dataSource;
 	}

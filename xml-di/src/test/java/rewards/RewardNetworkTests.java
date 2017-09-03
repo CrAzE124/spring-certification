@@ -1,23 +1,17 @@
 package rewards;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
-
+import common.money.MonetaryAmount;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.boot.SpringApplication;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.AbstractApplicationContext;
 
-import common.money.MonetaryAmount;
-import config.RewardsConfig;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 /**
  * A system test that verifies the components of the RewardNetwork application work together to reward for dining
  * successfully. Uses Spring to bootstrap the application for use in a test environment.
- *
- * TODO-01: Run this test before making any changes.  It should pass.
  */
 public class RewardNetworkTests  {
 

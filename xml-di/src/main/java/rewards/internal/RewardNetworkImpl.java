@@ -23,8 +23,6 @@ import common.money.MonetaryAmount;
  * 
  * Said in other words, this class implements the "reward account for dining" use case.
  */
-//	TODO-09: Remove this @Service annotation and the @Autowired annotation below.
-@Service("rewardNetwork")
 public class RewardNetworkImpl implements RewardNetwork {
 
 	private AccountRepository accountRepository;
@@ -39,7 +37,6 @@ public class RewardNetworkImpl implements RewardNetwork {
 	 * @param restaurantRepository the repository for loading restaurants that determine how much to reward
 	 * @param rewardRepository the repository for recording a record of successful reward transactions
 	 */
-	@Autowired
 	public RewardNetworkImpl(AccountRepository accountRepository, RestaurantRepository restaurantRepository,
 			RewardRepository rewardRepository) {
 		this.accountRepository = accountRepository;
