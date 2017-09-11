@@ -4,8 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+import org.springframework.context.annotation.Profile;
 import org.springframework.dao.EmptyResultDataAccessException;
 
+import org.springframework.stereotype.Repository;
 import rewards.internal.account.Account;
 import rewards.internal.account.AccountRepository;
 
@@ -21,6 +23,8 @@ import common.money.Percentage;
  * dependencies such as a Database. Simple unit tests can then verify object
  * behavior by considering the state of this stub.
  */
+@Repository
+@Profile("stub")
 public class StubAccountRepository implements AccountRepository {
 
 	private Logger logger = Logger.getLogger(StubAccountRepository.class);

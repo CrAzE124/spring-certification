@@ -10,6 +10,7 @@ import javax.sql.DataSource;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import rewards.AccountContribution;
@@ -23,6 +24,7 @@ import common.datetime.SimpleDate;
  * confirmation record.
  */
 @Repository
+@Profile("jdbc")
 public class JdbcRewardRepository implements RewardRepository {
 
 	private Logger logger = Logger.getLogger(JdbcRewardRepository.class);
