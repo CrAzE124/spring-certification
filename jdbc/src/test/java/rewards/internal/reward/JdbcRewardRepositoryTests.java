@@ -61,11 +61,7 @@ public class JdbcRewardRepositoryTests {
 	private void verifyRewardInserted(RewardConfirmation confirmation, Dining dining) throws SQLException {
 		assertEquals(1, getRewardCount());
 		
-		//	TODO-02: Use the JdbcTemplate to query for a map of all values in the T_REWARD table based on the
-		// 	confirmationNumber. After making the changes, execute the test class to verify its 
-		//	successful execution.
-		
-		Map<String, Object> values = null;
+		Map<String, Object> values = jdbcTemplate.queryForMap("SELECT * FROM T_REWARD WHERE CONFIRMATION_NUMBER = ?", confirmation.getConfirmationNumber());
 		verifyInsertedValues(confirmation, dining, values);
 	}
 
@@ -80,8 +76,7 @@ public class JdbcRewardRepositoryTests {
 	}
 
 	private int getRewardCount() throws SQLException {
-		// TODO-01: Use the JdbcTemplate to query for the number of rows in the T_REWARD table
-		return -1;
+		return jdbcTemplate.queryForObject("SELECT COUNT(*) FROM T_REWARD", Integer.class);
 	}
 
 	private DataSource createTestDataSource() {
