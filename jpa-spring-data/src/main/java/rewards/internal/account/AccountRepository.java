@@ -1,6 +1,8 @@
 package rewards.internal.account;
 
 
+import org.springframework.stereotype.Repository;
+
 /**
  * Loads account aggregates. Called by the reward network to find and
  * reconstitute Account entities from an external form such as a set of RDMS
@@ -9,10 +11,7 @@ package rewards.internal.account;
  * Objects returned by this repository are guaranteed to be fully initialized
  * and ready to use.
  */
-
-//	TODO-04:  Alter this interface to extend a Spring Data Interface.
-//	Define a method that will look up an Account by the provided creditCardNumber.
-public interface AccountRepository {
-
-
+@Repository
+public interface AccountRepository extends org.springframework.data.repository.Repository<Account, Long> {
+    Account findByCreditCardNumber(String creditCardNumber);
 }

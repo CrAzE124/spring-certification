@@ -43,17 +43,13 @@ public class RewardNetworkImpl implements RewardNetwork {
 		this.rewardRepository = rewardRepository;
 	}
 
-	//	TODO-09:  Un-comment the code in the method below and remove the "return null;"
-	//	Adjust the method names on the accountRepository and restaurantRepository as needed
-	//	to match your method names.
-	//	This code should look familiar; it is the same code you implemented in the first lab!	
 	@Transactional
 	public RewardConfirmation rewardAccountFor(Dining dining) {
-//		Account account = accountRepository.findByCreditCardNumber(dining.getCreditCardNumber());
-//		Restaurant restaurant = restaurantRepository.findByNumber(dining.getMerchantNumber());
-//		MonetaryAmount amount = restaurant.calculateBenefitFor(account, dining);
-//		AccountContribution contribution = account.makeContribution(amount);
-//		return rewardRepository.confirmReward(contribution, dining);
-		return null;
+		Account account = accountRepository.findByCreditCardNumber(dining.getCreditCardNumber());
+		Restaurant restaurant = restaurantRepository.findByNumber(dining.getMerchantNumber());
+		MonetaryAmount amount = restaurant.calculateBenefitFor(account, dining);
+		AccountContribution contribution = account.makeContribution(amount);
+
+		return rewardRepository.confirmReward(contribution, dining);
 	}
 }

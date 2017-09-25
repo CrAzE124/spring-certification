@@ -26,13 +26,6 @@ import common.money.Percentage;
  * 
  * An entity. An aggregate.
  */
-//	TODO-01:  Review the JPA annotations on this class and make sure you know what each does.
-//	@Entity - Marks this class as a JPA persistent class
-//	@Table - Specifies the exact table name to use on the DB (would be "Account" if unspecified).
-//	@Id - Indicates the field to use as the primary key on the database
-//	@Column - Identifies column-level customization, such as the exact name of the column on the table.
-//	@OneToMany - Identifies the field on the 'one' side of a one to many relationship.
-//	@JoinColumn - Identifies the column on the 'many' table containing the column to be used when joining.  Usually a foreign key.
 @Entity
 @Table(name="T_ACCOUNT")
 public class Account {

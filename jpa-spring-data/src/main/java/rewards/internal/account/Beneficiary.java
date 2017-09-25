@@ -14,8 +14,6 @@ import common.money.Percentage;
  * A single beneficiary allocated to an account. Each beneficiary has a name (e.g. Annabelle) and a savings balance
  * tracking how much money has been saved for he or she to date (e.g. $1000).
  */
-//	TODO-02:  Review the JPA annotations on this class and make sure you know what each does.
-//	@AttributeOverride - Tells JPA to use the ALLOCATION_PERCENTAGE column on T_ACCOUNT_BENEFICIARY to populate Percentage.value.
 @Entity
 @Table(name="T_ACCOUNT_BENEFICIARY")
 public class Beneficiary {
