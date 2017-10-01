@@ -36,23 +36,18 @@ public class AccountControllerTests {
 		assertEquals(1, accounts.size());
 		assertEquals(Long.valueOf(0), accounts.get(0).getEntityId());
 
-		// TODO-04: Change this to expect a logical view name
-		// Re-run the test and make sure it passes
-		//
-		assertEquals("/WEB-INF/views/accountList.jsp", viewName);
+		assertEquals("accountList", viewName);
 	}
 
-	// TODO-05: Restart the server. You should still be able to see the
-	// list of accounts on the home page.
+	@Test
+	public void testHandleAccountDetailsRequest() {
+		ExtendedModelMap modelMap = new ExtendedModelMap();
+		String viewName = controller.accountDetails(0L, modelMap);
 
-	// TODO-07: Add a test for the accountDetails() method of AccountController.
-	// Use the test method above for hints. Supply 0 for the ID value to
-	// retrieve.
-	// Create assertions for model contents and view name.
-	// When complete run the test. It should pass.
+		Account account = (Account) modelMap.get("account");
+		assertNotNull(account);
+		assertEquals(Long.valueOf(0), account.getEntityId());
 
-
-	// TODO-08: Restart the server. You should now be able to click
-	// any of the account links and reach their details page.
-
+		assertEquals("accountDetails", viewName);
+	}
 }

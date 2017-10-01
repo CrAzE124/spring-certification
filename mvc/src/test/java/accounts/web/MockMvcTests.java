@@ -1,9 +1,7 @@
 package accounts.web;
 
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.forwardedUrl;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.model;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -98,16 +96,10 @@ public class MockMvcTests {
 				.perform(get("/accountDetails") //
 						.param("entityId", "0") //
 						.accept(MediaType.parseMediaType("text/html;charset=UTF-8")))
-				// TODO-11: EXTRA CREDIT Fix this methid
-				// 1. Modify the line below - the URL is now valid so we no
-				// longer get a 404.
-				// 2. Add 3 more andExpect() methods similar to the
-				// getAccountsTest() method above. Check that:
-				// 2a. The model contains 1 attribute
-				// 2b. That the attribute has the correct name
-				// 2c. That we are being forwarded to the right JSP
-				// 3. Rerun the tests until they all pass.
-				.andExpect(status().isNotFound());
+				.andExpect(model().size(1))
+				.andExpect(model().attributeExists("account"))
+				.andExpect(view().name("accountDetails"))
+				.andExpect(status().isOk());
 	}
 
 }

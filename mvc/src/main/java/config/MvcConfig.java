@@ -1,17 +1,13 @@
 package config;
 
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.ViewResolver;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
-
-/**
- * TODO-02: Add an InternalResourceViewResolver bean definition.
- * <p>
- * Set the prefix and suffix properties - the JSP views are all in
- * <code>src/main/webapp/WEB-INF/views</code>. Refer to the notes for help.
- */
+import org.springframework.web.servlet.view.InternalResourceViewResolver;
 
 @Configuration
 @ComponentScan("accounts.web")
@@ -26,5 +22,15 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
 	@Override
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("classpath:/static/");
+	}
+
+	/**
+	 * Decouple the view resolver from the controller itself
+	 *
+	 * @return The view resolver to use
+	 */
+	@Bean
+	public ViewResolver viewResolver() {
+		return new InternalResourceViewResolver("/WEB-INF/views/", ".jsp");
 	}
 }
