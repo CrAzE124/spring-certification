@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-boot-start</artifactId>
-    <packaging>jar</packaging>
-    <!-- NOTE: Our training courses use our own parent POM, for all the projects 
-		in the same course, to set them up the same way. So the parent POM is NOT 
+    <packaging>war</packaging>
+    <!-- NOTE: Our training courses use our own parent POM, for all the projects
+		in the same course, to set them up the same way. So the parent POM is NOT
 		the spring-boot-starter-parent you saw in the notes. However our parent
 		POM does have spring-boot-starter-parent as its parent. -->
     <parent>
@@ -22,8 +22,14 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>org.apache.tomcat.embed</groupId>
             <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>javax.servlet</groupId>
