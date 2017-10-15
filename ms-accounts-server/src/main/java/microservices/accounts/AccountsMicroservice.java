@@ -3,7 +3,9 @@ package microservices.accounts;
 import java.util.logging.Logger;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.context.annotation.Bean;
 
 import accounts.AccountManager;
@@ -15,23 +17,10 @@ import accounts.internal.JpaAccountManager;
  * <p>
  * Run this process SECOND.
  */
-// TODO-06: Add annotations to make this a Spring Boot application and to ensure
-// registration with the Discovery Server
-// Ignore any httpMapperProperties deprecated warning
-
-// TODO-07: Run this as a Spring Boot application - make sure the Registration
-// Server is still running. In a browser open this URL:
-// http://localhost:NNNN - where NNNN is the port number
-// Do you know where this port is defined? - check main() below.
-
-// TODO-08: Has it registered with the Registration Server yet? Check the
-// registration-server's dashboard at http://localhost:1111/
-// You may have to wait a minute or so for this to occur.
-//
-// TODO-09: Finally go to ms-web-client and follow the TO DO steps there.
-
 // This annotation gets Spring Boot to configure where JPA looks for Entities
 @EntityScan("rewards")
+@SpringBootApplication
+@EnableDiscoveryClient
 public class AccountsMicroservice {
 
 	protected Logger logger = Logger.getLogger(AccountsMicroservice.class.getName());
