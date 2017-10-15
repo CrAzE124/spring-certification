@@ -61,14 +61,13 @@ public class AccountControllerTests {
 	// other useful classes for testing Controllers like MockHttpSession
 	// and MockHttpSrvletResponse.
 	@Test
-	@Ignore
 	public void testCreateAccount() {
 		Account newAccount = new Account("11223344", "Test");
 
 		// ServletUriComponentsBuilder expects to find the HttpRequest in the
 		// current thread (Spring MVC does this for you). For our test, we need
 		// to add a mock request manually
-		//setupFakeRequest("http://localhost/accounts");
+		setupFakeRequest("http://localhost/accounts");
 
 		HttpEntity<?> result = controller.createAccount(newAccount);
 		assertNotNull(result);

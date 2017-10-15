@@ -3,45 +3,86 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations/annotations.iml" filepath="$PROJECT_DIR$/annotations/annotations.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations-solution/annotations-solution.iml" filepath="$PROJECT_DIR$/annotations-solution/annotations-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/annotations-solution/annotations-solution.iml" filepath="$PROJECT_DIR$/annotations-solution/annotations-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop/aop.iml" filepath="$PROJECT_DIR$/aop/aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aop-solution/aop-solution.iml" filepath="$PROJECT_DIR$/aop-solution/aop-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/aop-solution/aop-solution.iml" filepath="$PROJECT_DIR$/aop-solution/aop-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaconfig-dependency-injection/javaconfig-dependency-injection.iml" filepath="$PROJECT_DIR$/javaconfig-dependency-injection/javaconfig-dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaconfig-dependency-injection/javaconfig-dependency-injection.iml" filepath="$PROJECT_DIR$/javaconfig-dependency-injection/javaconfig-dependency-injection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaconfig-dependency-injection-solution/javaconfig-dependency-injection-solution.iml" filepath="$PROJECT_DIR$/javaconfig-dependency-injection-solution/javaconfig-dependency-injection-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaconfig-dependency-injection-solution/javaconfig-dependency-injection-solution.iml" filepath="$PROJECT_DIR$/javaconfig-dependency-injection-solution/javaconfig-dependency-injection-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" filepath="$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" filepath="$PROJECT_DIR$/jdbc-solution/jdbc-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jms/jms.iml" filepath="$PROJECT_DIR$/jms/jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jms/jms.iml" filepath="$PROJECT_DIR$/jms/jms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jms-solution/jms-solution.iml" filepath="$PROJECT_DIR$/jms-solution/jms-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jms-solution/jms-solution.iml" filepath="$PROJECT_DIR$/jms-solution/jms-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jmx/jmx.iml" filepath="$PROJECT_DIR$/jmx/jmx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmx/jmx.iml" filepath="$PROJECT_DIR$/jmx/jmx.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jmx-solution/jmx-solution.iml" filepath="$PROJECT_DIR$/jmx-solution/jmx-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jmx-solution/jmx-solution.iml" filepath="$PROJECT_DIR$/jmx-solution/jmx-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-spring-data/jpa-spring-data.iml" filepath="$PROJECT_DIR$/jpa-spring-data/jpa-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-spring-data/jpa-spring-data.iml" filepath="$PROJECT_DIR$/jpa-spring-data/jpa-spring-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jpa-spring-data-solution/jpa-spring-data-solution.iml" filepath="$PROJECT_DIR$/jpa-spring-data-solution/jpa-spring-data-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/jpa-spring-data-solution/jpa-spring-data-solution.iml" filepath="$PROJECT_DIR$/jpa-spring-data-solution/jpa-spring-data-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-accounts-server/ms-accounts-server.iml" filepath="$PROJECT_DIR$/ms-accounts-server/ms-accounts-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-accounts-server/ms-accounts-server.iml" filepath="$PROJECT_DIR$/ms-accounts-server/ms-accounts-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-accounts-server-solution/ms-accounts-server-solution.iml" filepath="$PROJECT_DIR$/ms-accounts-server-solution/ms-accounts-server-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-accounts-server-solution/ms-accounts-server-solution.iml" filepath="$PROJECT_DIR$/ms-accounts-server-solution/ms-accounts-server-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-discovery-server/ms-discovery-server.iml" filepath="$PROJECT_DIR$/ms-discovery-server/ms-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-discovery-server/ms-discovery-server.iml" filepath="$PROJECT_DIR$/ms-discovery-server/ms-discovery-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-discovery-server-solution/ms-discovery-server-solution.iml" filepath="$PROJECT_DIR$/ms-discovery-server-solution/ms-discovery-server-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-discovery-server-solution/ms-discovery-server-solution.iml" filepath="$PROJECT_DIR$/ms-discovery-server-solution/ms-discovery-server-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-web-client/ms-web-client.iml" filepath="$PROJECT_DIR$/ms-web-client/ms-web-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-web-client/ms-web-client.iml" filepath="$PROJECT_DIR$/ms-web-client/ms-web-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ms-web-client-solution/ms-web-client-solution.iml" filepath="$PROJECT_DIR$/ms-web-client-solution/ms-web-client-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/ms-web-client-solution/ms-web-client-solution.iml" filepath="$PROJECT_DIR$/ms-web-client-solution/ms-web-client-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc/mvc.iml" filepath="$PROJECT_DIR$/mvc/mvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvc-solution/mvc-solution.iml" filepath="$PROJECT_DIR$/mvc-solution/mvc-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvc-solution/mvc-solution.iml" filepath="$PROJECT_DIR$/mvc-solution/mvc-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/parentCoreSpringProject.iml" filepath="$PROJECT_DIR$/parentCoreSpringProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parentCoreSpringProject.iml" filepath="$PROJECT_DIR$/parentCoreSpringProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-ws/rest-ws.iml" filepath="$PROJECT_DIR$/rest-ws/rest-ws.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-ws/rest-ws.iml" filepath="$PROJECT_DIR$/rest-ws/rest-ws.iml" />
       <module fileurl="file://$PROJECT_DIR$/rest-ws-solution/rest-ws-solution.iml" filepath="$PROJECT_DIR$/rest-ws-solution/rest-ws-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rest-ws-solution/rest-ws-solution.iml" filepath="$PROJECT_DIR$/rest-ws-solution/rest-ws-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rewards-common/rewards-common.iml" filepath="$PROJECT_DIR$/rewards-common/rewards-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/rewards-common/rewards-common.iml" filepath="$PROJECT_DIR$/rewards-common/rewards-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/rewards-db/rewards-db.iml" filepath="$PROJECT_DIR$/rewards-db/rewards-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rewards-db/rewards-db.iml" filepath="$PROJECT_DIR$/rewards-db/rewards-db.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/security/security.iml" filepath="$PROJECT_DIR$/security/security.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-solution/security-solution.iml" filepath="$PROJECT_DIR$/security-solution/security-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/security-solution/security-solution.iml" filepath="$PROJECT_DIR$/security-solution/security-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-solution/spring-boot-solution.iml" filepath="$PROJECT_DIR$/spring-boot-solution/spring-boot-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-solution/spring-boot-solution.iml" filepath="$PROJECT_DIR$/spring-boot-solution/spring-boot-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" filepath="$PROJECT_DIR$/spring-boot-start/spring-boot-start.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-intro/spring-intro.iml" filepath="$PROJECT_DIR$/spring-intro/spring-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-intro/spring-intro.iml" filepath="$PROJECT_DIR$/spring-intro/spring-intro.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-intro-solution/spring-intro-solution.iml" filepath="$PROJECT_DIR$/spring-intro-solution/spring-intro-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-intro-solution/spring-intro-solution.iml" filepath="$PROJECT_DIR$/spring-intro-solution/spring-intro-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/test/test.iml" filepath="$PROJECT_DIR$/test/test.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-solution/test-solution.iml" filepath="$PROJECT_DIR$/test-solution/test-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-solution/test-solution.iml" filepath="$PROJECT_DIR$/test-solution/test-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx/tx.iml" filepath="$PROJECT_DIR$/tx/tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/tx/tx.iml" filepath="$PROJECT_DIR$/tx/tx.iml" />
       <module fileurl="file://$PROJECT_DIR$/tx-solution/tx-solution.iml" filepath="$PROJECT_DIR$/tx-solution/tx-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tx-solution/tx-solution.iml" filepath="$PROJECT_DIR$/tx-solution/tx-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-dependency-injection-best-practices/xml-dependency-injection-best-practices.iml" filepath="$PROJECT_DIR$/xml-dependency-injection-best-practices/xml-dependency-injection-best-practices.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml-dependency-injection-best-practices/xml-dependency-injection-best-practices.iml" filepath="$PROJECT_DIR$/xml-dependency-injection-best-practices/xml-dependency-injection-best-practices.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml-dependency-injection-best-practices-solution/xml-dependency-injection-best-practices-solution.iml" filepath="$PROJECT_DIR$/xml-dependency-injection-best-practices-solution/xml-dependency-injection-best-practices-solution.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-dependency-injection-best-practices-solution/xml-dependency-injection-best-practices-solution.iml" filepath="$PROJECT_DIR$/xml-dependency-injection-best-practices-solution/xml-dependency-injection-best-practices-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml-di/xml-di.iml" filepath="$PROJECT_DIR$/xml-di/xml-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-di/xml-di.iml" filepath="$PROJECT_DIR$/xml-di/xml-di.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xml-di-solution/xml-di-solution.iml" filepath="$PROJECT_DIR$/xml-di-solution/xml-di-solution.iml" />
       <module fileurl="file://$PROJECT_DIR$/xml-di-solution/xml-di-solution.iml" filepath="$PROJECT_DIR$/xml-di-solution/xml-di-solution.iml" />
     </modules>
   </component>
